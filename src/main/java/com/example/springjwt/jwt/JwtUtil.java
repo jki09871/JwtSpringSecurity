@@ -67,7 +67,7 @@ public class JwtUtil {
     public String createJwt(String username, String role, Long expiredMs) {
         return Jwts.builder()
                 .claim("username", username)  // 'username' 정보를 클레임에 추가.
-                .claim("role", "ROLE_" + role)  // ROLE_ 접두사 추가
+                .claim("role", role)
                 .issuedAt(new Date(System.currentTimeMillis()))  // 현재 시간을 발행 시간으로 설정.
                 .expiration(new Date(System.currentTimeMillis() + expiredMs))  // 만료 시간을 현재 시간 + expiredMs 밀리초로 설정.
                 .signWith(secretKey)  // 비밀키를 사용해 서명.

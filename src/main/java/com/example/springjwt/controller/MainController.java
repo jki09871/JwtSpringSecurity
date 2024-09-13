@@ -26,6 +26,10 @@ public class MainController {
         GrantedAuthority auth = iterator.next();
         String role = auth.getAuthority();
 
+        if (role.startsWith("ROLE_")) {
+            role = role.substring(5);  //ROLE_두번 붙는거 제거
+        }
+
         return "Main Controller" + username + role;
     }
 }

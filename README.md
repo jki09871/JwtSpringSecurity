@@ -23,7 +23,6 @@
 - **MySQL**
 - **BCrypt**
 - **Lombok**
-- **Maven Central**
 
 ## 프로젝트 설정
 

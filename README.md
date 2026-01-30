@@ -372,14 +372,3 @@ Authorization: Bearer {JWT_TOKEN}
 📌 **JWT 인증 구조 학습용으로 강력 추천**
 
 ```
-
----
-
-원하면 다음도 바로 해줄게 👇  
-- 🔁 **Refresh Token 구조 추가**
-- 🧠 **JWTFilter / LoginFilter 흐름 그림 설명**
-- 🛡️ **403 / 401 에러 처리 전략**
-- 🧪 **Postman Collection 파일 만들어주기**
-
-말만 해 브로 😎
-```

@@ -370,5 +370,3 @@ Authorization: Bearer {JWT_TOKEN}
 ---
 
 📌 **JWT 인증 구조 학습용으로 강력 추천**
-
-```
